@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -32,7 +33,6 @@ body {
 input,
 button {
     font-family: Poppins, 'sans-serif';
-
 }
 
 /*////////////////////////
@@ -51,14 +51,17 @@ button {
     background-size: cover;
     background-position: center;
 }
+
 h1 {
-   font-weight: 700;
+    font-weight: 700;
     font-size: 55px;
     color: #1C2B32;
+    margin-bottom: -25px;
 }
 
 .domeinnaam {
-    margin: 1em;
+    padding: 20px;
+    font-size: 10px;
 }
 
 .beschikbaarheid {
@@ -66,21 +69,21 @@ h1 {
 }
 
 .header-selection input {
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     padding: 10px 10px;
     background-color: transparent;
 }
 
 input::placeholder {
-    color: white;
+    color: black;
     font-size: 10px;
     text-align: center;
 }
 
 .header-selection button {
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
     padding: 10px 10px;
     background-color: #1C2B32;
     color: white;
@@ -89,25 +92,117 @@ input::placeholder {
 .button-text {
     font-size: 10px;
 }
+
 /*///////////// 3.2 Testimonial /////////////*/
 .main-selection {
-    max-width: 1000px;
-    /*margin: midden? ;*/
+    max-width: 700px;
     text-align: center;
+    margin-top: -120px;
+    padding: 150px;
 }
 
-.reviews h2 {
-
+.review_tekst1 {
+    padding: 40px;
+    display: block;
+    box-shadow: 5px 5px 25px grey;
+    font-size: 10px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    text-align: left;
 }
 
-.contact h2 {
+.avatar-j {
+    width: 44px;
+    height: 44px;
+    vertical-align: baseline;
+}
 
+.jane {
+    padding-left: 20px;
+}
+
+.avatar-o {
+    width: 44px;
+    height: 44px;
+}
+
+.john {
+    padding-left: 20px;
+}
+
+.quote {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
 }
 
 /*///////////// 3.3 Support /////////////*/
 
+.callcenter-image {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
 
+.team-tekst {
+    text-align: left;
+    font-size: 10px;
+}
+
+.link {
+    color: grey;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.contact-button {
+    border-radius: 20px;
+    padding: 8px 8px;
+    background-color: #1C2B32;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    left: -290px;
+}
+.button_text_2 {
+    font-size: 10px;
+}
 /*///////////// 3.4 Faq /////////////*/
+.vragen {
+    text-align: left;
+    margin-top: 35px;
+}
 
+.uitklapbare-vragen {
+    padding: 15px;
+}
+
+.uitklapbare-vragen:hover {
+  cursor: pointer;
+}
+
+.extra-tekst {
+    display: block;
+    color: white;
+    background-color: hsl(180, 13%, 47%);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
 
 /*///////////// 3.5 Footer /////////////*/
+.copyright-tekst {
+    max-width: 1000px;
+    margin: -10px;
+    text-align: center;
+    display: block;
+    background-color: #1C2B32;
+    color: white;
+    font-size: 8px;
+    padding: 20px;
+}
